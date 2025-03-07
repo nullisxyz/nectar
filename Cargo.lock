@@ -512,6 +512,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "nectar-access-control"
+version = "0.1.0"
+dependencies = [
+ "alloy-primitives",
+ "auto_impl",
+ "bytes",
+ "thiserror",
+]
+
+[[package]]
 name = "nectar-primitives"
 version = "0.1.0"
 dependencies = [
@@ -527,6 +537,17 @@ dependencies = [
  "rayon",
  "thiserror",
  "tokio",
+]
+
+[[package]]
+name = "nectar-storage"
+version = "0.1.0"
+dependencies = [
+ "auto_impl",
+ "bytes",
+ "nectar-access-control",
+ "nectar-primitives",
+ "thiserror",
 ]
 
 [[package]]

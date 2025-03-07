@@ -32,7 +32,9 @@ rustdoc-args = ["--cfg", "docsrs"]
 
 [workspace.dependencies]
 # nectar crates
+nectar-access-control = { path = "crates/access-control" }
 nectar-primitives = { path = "crates/primitives" }
+nectar-storage = { path = "crates/storage" }
 
 # crypt & hashing
 alloy-primitives = { version = "0.8.22", default-features = false }
